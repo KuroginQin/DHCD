@@ -1,6 +1,6 @@
 # Dual-Channel Hybrid Community Detection in Attributed Networks
 
-This repository provides a reference implementation of *DHCD* introduced in the paper "Dual-Channel Hybrid Community Detection in Attributed networks". (https://www.sciencedirect.com/science/article/pii/S0020025520310963)
+This repository provides a reference implement of *DHCD* introduced in the paper "Dual-Channel Hybrid Community Detection in Attributed networks". (https://www.sciencedirect.com/science/article/pii/S0020025520310963)
 
 ### Abstract
 This study considers the problem of hybrid community detection in attributed networks based on the information of network topology and attributes with the aim to address the following two shortcomings of existing hybrid community detection methods. First, many of these methods are based on the assumption that network topology and attributes carry consistent information but ignore the intrinsic mismatch correlation between them. Second, network topology is typically treated as the dominant source of information, with attributes employed as the auxiliary source; the dominant effect of attributes is seldom explored or indeed considered. To address these limitations, this paper presents a novel Dual-channel Hybrid Community Detection (DHCD) method that considers the dominant effects of topology and attributes separately. The concept of transition relation between the topology and attribute clusters is introduced to explore the mismatch correlation between the two sources and learn the behavioral and content diversity of nodes. An extended overlapping community detection algorithm is introduced based on the two types of diversity. By utilizing network attributes, DHCD can simultaneously derive the community partitioning membership and corresponding semantic descriptions. The superiority of DHCD over state-of-the-art community detection methods is demonstrated on a set of synthetic and real-world networks.
@@ -19,7 +19,7 @@ In contrast, the community detection result w.r.t. the NNDSVD initialization str
 Descriptions of the demostration code are as follow:
 1. **demo_dis_rand.m**: disjoint community detection with random initialization, in which the quality metrics w.r.t. different parameter settings will be saved in 'DHCD_T-A(dis_rand).txt' and 'DHCD_A-T(dis_rand).txt';
 2. **demo_dis_hyd.m**: disjoint community detection with hybrid initiliazation, in which the quality metrics w.r.t. different parameter settings will be saved in 'DHCD_T-A(dis_hyd).txt' and 'DHCD_A-T(dis_hyd).txt';
-3. **demo_dis_SVD.m**: disjoint community detection with NNDSVD initialization, in which the quality metrics w.r.t. different parameter settings will be saved in 'DHCD_T-A(dis_SVD).txt' and 'DHCD_A-T(dis_SVD).txt';
+3. **demo_dist_SVD.m**: disjoint community detection with NNDSVD initialization, in which the quality metrics w.r.t. different parameter settings will be saved in 'DHCD_T-A(dis_SVD).txt' and 'DHCD_A-T(dis_SVD).txt';
 4. **demo_over_rand.m**: overlapping community detecton with random initialization, in which the quality metrics w.r.t. different parameter settings will be saved in 'DHCD_T-A(over_rand).txt' and 'DHCD_A-T(over_rand).txt';
 5. **demo_over_hyd.m**: overlapping community detection with hybrid initialization, in which the quality metrics w.r.t. different parameter settings will be saved in 'DHCD_T-A(over_hyd).txt' and 'DHCD_A-T(over_hyd).txt';
 6. **demo_over_SVD.m**: overlapping community detection with NNDSVD initialization, in which the quality metrics w.r.t. different parameter settings will be saved in 'DHCD_T-A(over_SVD).txt' and 'DHCD_A-T(over_SVD).txt';
@@ -27,13 +27,13 @@ Descriptions of the demostration code are as follow:
 
 ### Citing
 Please cite the following paper if you use *DHCD* in your research:
->  @article{qin2021dual,<br>
->    title={Dual-Channel Hybrid Community Detection in Attributed Networks},<br>
->    author={Qin, Meng and Lei, Kai},<br>
->    journal={Information Sciences},<br>
->    volume={551},<br>
->    pages={146--167},<br>
->    year={2021},<br>
->    publisher={Elsevier}<br>
+>  @article{qin2021dual,
+>    title={Dual-Channel Hybrid Community Detection in Attributed Networks},
+>    author={Qin, Meng and Lei, Kai},
+>    journal={Information Sciences},
+>    volume={551},
+>    pages={146--167},
+>    year={2021},
+>    publisher={Elsevier}
 >  }
 
