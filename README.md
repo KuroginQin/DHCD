@@ -28,14 +28,14 @@ Descriptions of the demostration code are as follow:
 ### Citing
 Please cite the following paper if you use *DHCD* in your research:
 ```
-@article{qin2021dual,<br>
-  title={Dual-Channel Hybrid Community Detection in Attributed Networks},<br>
-  author={Qin, Meng and Lei, Kai},<br>
-  journal={Information Sciences},<br>
-  volume={551},<br>
-  pages={146--167},<br>
-  year={2021},<br>
-  publisher={Elsevier}<br>
+@article{qin2021dual,
+  title={Dual-Channel Hybrid Community Detection in Attributed Networks},
+  author={Qin, Meng and Lei, Kai},
+  journal={Information Sciences},
+  volume={551},
+  pages={146--167},
+  year={2021},
+  publisher={Elsevier}
 }
 ```
-
+If you have any questions, you can contact the author via [mengqin_az@foxmail.com].
